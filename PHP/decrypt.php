@@ -26,7 +26,7 @@ function decrypt($base64IvCiphertext, $base64Key) {
     return $decrypted;
 }
 
-$KEY = 'nL0x9HzcbFv0aFOfzLzaZZJeEvjpL1bJ+a8ydRst9wM=';
+$KEY = 'ErFpVQSho4LzFzHYCQLUdY6Fb9jLw003MBcPkOVR7t8=';
 
 function encode($text) {
     global $KEY;
