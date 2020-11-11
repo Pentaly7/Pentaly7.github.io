@@ -66,7 +66,7 @@ async function generateKey() {
   return b64.bytesToBase64(new Uint8Array(rawKey));
 }
 
-const KEY = "mnP/tmPgYaEzyXpzjs9ndmHWjUZCPOvlhkLFmFzYIoA=";
+const KEY = "nL0x9HzcbFv0aFOfzLzaZZJeEvjpL1bJ+a8ydRst9wM=";
 
 async function encode(text) {
   return encrypt(text, KEY);

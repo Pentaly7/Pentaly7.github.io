@@ -23,7 +23,7 @@
         <input id="encrypted_link" type="text" class="form-control" placeholder="encrypted ID">
         <p class="mt-3">You can share the decryption website and encrypted ID separately or combine them together with <code>#</code> like this: <code>https://example.com/#ABCD.1234</code></p>
       </div>
-      <div class="card-body"><h3>Decryption servers</h3><pre>https://pentaly7.github.io</pre></div>
+      <div class="card-body"><h3>Decryption servers</h3><pre>https://www.game-repack.site/drive/</pre></div>
     </div>
   </div></div></div>
 
@@ -102,7 +102,7 @@ async function generateKey() {
 }
 
 async function encryptId(folderId) {
-  return encrypt(folderId, "mnP/tmPgYaEzyXpzjs9ndmHWjUZCPOvlhkLFmFzYIoA=");
+  return encrypt(folderId, "nL0x9HzcbFv0aFOfzLzaZZJeEvjpL1bJ+a8ydRst9wM=");
 }
 
 async function encryptFolder() {
@@ -121,7 +121,7 @@ document.querySelector("#encrypt").addEventListener("click", async function(even
   document.querySelector("#folder_link").setAttribute("disabled", "");
   document.querySelector("#encrypt").setAttribute("disabled", "");
   try {
-    document.querySelector("#encrypted_link").value = "cGVudGFseTcuZ2l0aHViLmlv." + (await encryptFolder());
+    document.querySelector("#encrypted_link").value = "d3d3LmdhbWUtcmVwYWNrLnNpdGUvZHJpdmU=." + (await encryptFolder());
   }
   catch(e) {
     alert(e.message);
